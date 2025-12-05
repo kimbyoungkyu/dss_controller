@@ -70,7 +70,9 @@ source ~/dss_env/bin/activate
 ## 2.3 Python 패키지 설치
 
 ```bash
-pip install nats-py protobuf setuptools wheel
+pip install nats-py setuptools wheel
+pip install protobuf==3.20.3
+
 ```
 
 ---
